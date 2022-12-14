@@ -15,12 +15,14 @@
       <button class="button">Boom?</button>
     </div>
     <script>
-      for(let i = 0; i < 5; i++){
+      document.body.addEventListener("click", () => {
+    for(let i = 0; i < 5; i++){
       let elements = document.createElement("article");
       elements.classList = "message";
       elements.innerHTML = "lorem ipsum random text"
       document.body.append(elements);
     }
+      })
     </script>
   </body>
 </html>
