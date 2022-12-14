@@ -14,6 +14,13 @@
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
     </div>
-    <script src="../src/js/app.js"></script>
+    <script>
+      for(let i = 0; i < 5; i++){
+      let elements = document.createElement("article");
+      elements.classList = "message";
+      elements.innerHTML = "lorem ipsum random text"
+      document.body.append(elements);
+    }
+    </script>
   </body>
 </html>

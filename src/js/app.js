@@ -8,10 +8,4 @@ window.addEventListener("DOMContentLoaded", () => {
     alert("💣");
   });
 
-    for(let i = 0; i < 5; i++){
-      let elements = document.createElement("article");
-      elements.classList = "message";
-      elements.innerHTML = "lorem ipsum random text"
-      document.body.append(elements);
-    }
 });
