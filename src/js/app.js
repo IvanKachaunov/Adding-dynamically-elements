@@ -8,6 +8,6 @@ window.addEventListener("DOMContentLoaded", () => {
     alert("💣");
   });
 
-  const articlesMessage = document.querySelector(".message");
+  const articlesMessage = document.querySelectorAll(".message");
     articlesMessage.innerHTML = "Lorem ipsum dolor sit amet.";
 });
