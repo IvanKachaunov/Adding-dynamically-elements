@@ -7,4 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     alert("💣");
   });
+
+  const articlesMessage = document.querySelector(".message");
+    articlesMessage.innerHTML = "Lorem ipsum dolor sit amet.";
 });
